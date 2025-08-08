@@ -2,4 +2,3 @@ streamlit
 tensorflow
 PIL
 numpy
-scikit-learn
