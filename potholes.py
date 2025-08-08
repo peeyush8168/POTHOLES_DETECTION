@@ -30,4 +30,5 @@ if upload_f:
     pred=model.predict(processed)[0]
     class_index=np.argmax(pred)
     pred_class=classes[class_index]
+    st.button('Analyze')
     st.success(f'Prediction : {pred_class}')
