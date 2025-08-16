@@ -9,7 +9,7 @@ classes = ['bump', 'potholes','road']
 
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("new_pothole_model.h5")
+    model = tf.keras.models.load_model("new_pothole_model.h5",compile=False)
     return model
 
 model = load_model()
